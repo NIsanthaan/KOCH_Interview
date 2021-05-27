@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [KochInterview]" parallel="none">
+  <test name="FlightListDetailsTest(failed)" parallel="none">
+    <classes>
+      <class name="com.ixigo.test.FlightListDetailsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="startup"/>
+          <include name="flightDetailsTest"/>
+        </methods>
+      </class> <!-- com.ixigo.test.FlightListDetailsTest -->
+    </classes>
+  </test> <!-- FlightListDetailsTest(failed) -->
+</suite> <!-- Failed suite [KochInterview] -->
